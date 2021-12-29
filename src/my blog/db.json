@@ -1,0 +1,32 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "Article 1",
+      "src": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mercury-planet-1551956164.jpg?crop=0.601xw:1.00xh;0.190xw,0&resize=640:*",
+      "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias doloremque id ipsum exercitationem asperiores nobis voluptates animi voluptas possimus reprehenderit. Alias doloremque id ipsum exercitationem asperiores nobis voluptates animi voluptas possimus reprehenderit.",
+      "date": "Mesec je: Januar"
+    },
+    {
+      "id": "2",
+      "title": "Article 2",
+      "src": "https://static01.nyt.com/images/2020/09/22/science/19SCI-OUTTHERE-VENUS1/19SCI-OUTTHERE-VENUS1-mediumSquareAt3X.jpg",
+      "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, corrupti! Culpa ullam cum inventore debitis repellendus modi nemo nisi! Optio quod amet eligendi fugiat harum! Obcaecati vel doloribus esse ex.",
+      "date": "Mesec je: Februar"
+    },
+    {
+      "id": "3",
+      "title": "Article 3",
+      "src": "http://astronomy.com/~/media/1D9399EA7C744344AD428CC8D03B5730.jpg",
+      "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, corrupti! Culpa ullam cum inventore debitis repellendus modi nemo nisi! Optio quod amet eligendi fugiat harum! Obcaecati vel doloribus esse ex.",
+      "date": "Mesec je: Mart"
+    },
+    {
+      "id": "4",
+      "title": "Article 4",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/1200px-OSIRIS_Mars_true_color.jpg",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem?",
+      "date": "Mesec je: April"
+    }
+  ]
+}

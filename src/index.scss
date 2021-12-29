@@ -1,0 +1,100 @@
+@import "./variables.scss";
+@import "./tutorial/8.\ UseStateZadaci/accordion.scss";
+
+body {
+  background-color: $c-yellow-pale;
+  color: $c-main-dark;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.o-listing {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.m-article {
+  background-color: $c-main-light;
+  color: $c-white;
+  padding: 10px 30px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px gray;
+  margin-bottom: 10px;
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &--people {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      background: none;
+      border: none;
+      font-size: 36px;
+      color: $c-white;
+      cursor: pointer;
+    }
+  }
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    img {
+      border-radius: 10px;
+    }
+  }
+}
+
+.btn {
+  background: $c-main-dark;
+  border: 1px solid $c-white;
+  border-radius: 10px;
+  font-size: 16px;
+  color: $c-white;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.counter {
+  text-align: center;
+
+  & * {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 55px;
+  }
+
+  svg {
+    font-size: 45px;
+  }
+}
+
+.spinner {
+  text-align: center;
+  svg {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    animation: spin 3s infinite linear;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,1 @@
+export const pozdrav = 'Yo yo yo';

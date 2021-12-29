@@ -1,0 +1,35 @@
+@import "./variables.scss";
+
+body {
+  background-color: $c-yellow-pale;
+  color: $c-main-dark;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.o-listing {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.m-article {
+  background-color: $c-main-light;
+  color: $c-white;
+  padding: 0 30px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px gray;
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    img {
+      border-radius: 10px;
+    }
+  }
+}

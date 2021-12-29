@@ -1,0 +1,40 @@
+.m-accordion {
+  max-width: 500px;
+  margin: 0 auto;
+
+  &__panel {
+    background-color: $c-main-light;
+    color: $c-white;
+    padding: 10px 30px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px gray;
+    margin-bottom: 10px;
+    user-select: none;
+
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__btn {
+    border: none;
+    background: none;
+    font-size: 2em;
+    color: $c-white;
+    cursor: pointer;
+  }
+
+  &__info {
+    display: none;
+
+    &--active {
+      display: block;
+    }
+  }
+}
